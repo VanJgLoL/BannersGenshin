@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+ 
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+body{
+    background-color: #181818;
+    color: #fff;
+    animation: fadein 6s;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+h1 span{
+color: rgb(106, 8, 151);
+}
+
+img{
+  width: 550px;
+  height: 300px;
+}
+
+#banner {
+  display: flex;
+}
+
+#banner img {
+width: 450px;
+
+}
+
+#banner button {
+  background-color: rgba(181, 15, 247, 0.925);
+  color: #fff;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 20px;
+  transition: background 0.5s;
+  transition: transform 0.5s;
+
+}
+
+#texto button:hover {
+  background-color: rgb(83, 27, 136);
+  transform: scale(1.1);
+}
+#texto h2 {
+  font-size: 16px;
+}
+
+#texto h3 {
+  font-size: 26px;
+}
+
+#texto h3 span {
+  color: blueviolet;
+}
+
+#texto {
+  padding-right: 30px;
+}
+
+.wrapper {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
